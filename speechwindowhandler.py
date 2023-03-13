@@ -2,6 +2,7 @@
 import speech_recognition as sr #For Speech Recognition
 import pygetwindow as gw #To handle the Program Windows
 import subprocess as sp #To open a Program if not allready running
+import re
 
 # Define the dictionary of programs and their paths
 programs = {
